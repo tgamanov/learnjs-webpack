@@ -1,0 +1,24 @@
+{
+  "name": "webpack-menu",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-core": "*",
+    "babel-loader": "*",
+    "babel-preset-es2015": "*",
+    "css-loader": "*",
+    "extract-text-webpack-plugin": "2.0.0-rc.3",
+    "pug": "2.0.0-beta11",
+    "pug-loader": "*",
+    "style-loader": "*",
+    "stylus": "*",
+    "stylus-loader": "*",
+    "webpack": "*"
+  }
+}

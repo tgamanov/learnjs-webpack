@@ -1,0 +1,13 @@
+.list-users
+    span.title= title
+    ul
+        each user in users
+            li.list-users__item
+                span(
+                 class='user-first-name'
+                 data-first-name= user.firstName
+                )= user.firstName
+                span(
+                    class='user-last-name'
+                    data-last-name= user.lastName
+                )= user.lastName
